@@ -30,7 +30,7 @@
     </style>
 </head>
 <body>
-    <form method="POST">
+    <form method="POST"> <!--Security is better with POST-->
         <fieldset>
             <legend>Personal Information</legend>
             <label for="name">Name:</label>
@@ -52,7 +52,7 @@
 </body>
 </html>
 
-<script>
+<script> <!--In file JavaScript-->
     let button = document.querySelector("#submit-button")
     let form = document.querySelector("form")
     form.onsubmit((event)=>{
